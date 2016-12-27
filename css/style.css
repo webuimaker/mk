@@ -20,27 +20,35 @@ header, footer {
   height: 70px; }
 
 footer {
-  padding-top: 30px; }
+  padding-top: 30px;
+  text-transform: uppercase; }
 
 .social-link {
   padding-right: 15px; }
   .social-link li {
     list-style: none;
-    text-align: right; }
+    text-align: right;
+    font-size: 20px;
+    color: #007bb5; }
 
 .site-nav {
   z-index: 999; }
   .site-nav .navbar-brand {
-    padding-left: 0px; }
-  .site-nav .navbar-collapse .navbar-nav li {
-    margin-top: 5px; }
-    .site-nav .navbar-collapse .navbar-nav li a {
-      color: #272b2d;
-      text-transform: uppercase;
-      font-size: 14px; }
-      .site-nav .navbar-collapse .navbar-nav li a:hover, .site-nav .navbar-collapse .navbar-nav li a:focus {
-        background: none;
-        color: #0987C5; }
+    padding-left: 0px;
+    margin-top: 3px; }
+  .site-nav .navbar-collapse .navbar-nav {
+    margin-top: 4px; }
+    .site-nav .navbar-collapse .navbar-nav li {
+      margin-top: 5px; }
+      .site-nav .navbar-collapse .navbar-nav li a {
+        color: #272b2d;
+        text-transform: uppercase;
+        font-size: 14px; }
+        .site-nav .navbar-collapse .navbar-nav li a:hover, .site-nav .navbar-collapse .navbar-nav li a:focus {
+          background: none;
+          color: #0987C5; }
+      .site-nav .navbar-collapse .navbar-nav li:last-child a {
+        padding-right: 0px; }
 
 .home-wrapper {
   background: url(../images/waves.gif) no-repeat bottom #e2e2e2;
@@ -48,7 +56,7 @@ footer {
   display: flex;
   align-items: center; }
   .home-wrapper .caption-content2 {
-    margin: 0px auto;
+    margin: -15px auto 0px;
     text-align: center;
     width: calc(100% - 100px); }
     .home-wrapper .caption-content2 h1 {
@@ -102,6 +110,7 @@ footer {
     width: calc(100% - 10px); }
 
   .navbar-header .navbar-toggle {
+    margin-top: 17px;
     border: 1px solid #ccc; }
     .navbar-header .navbar-toggle .icon-bar {
       background: #333; }
@@ -117,6 +126,7 @@ footer {
     font-size: 14px; }
 
   footer {
-    font-size: 11px; } }
+    font-size: 11px;
+    padding-top: 26px; } }
 
 /*# sourceMappingURL=style.css.map */
