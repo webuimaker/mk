@@ -1,0 +1,122 @@
+/* Scss Document */
+/* CSS Document */
+*, *::before, *::after {
+  box-sizing: border-box; }
+
+html, body, .wrapper {
+  height: 100%;
+  font-family: 'Open Sans', sans-serif; }
+
+.wrapper {
+  padding-left: 70px;
+  padding-right: 70px;
+  position: relative; }
+
+.home-intro {
+  height: calc(100% - 140px);
+  background: #e2e2e2; }
+
+header, footer {
+  height: 70px; }
+
+footer {
+  padding-top: 30px; }
+
+.social-link {
+  padding-right: 15px; }
+  .social-link li {
+    list-style: none;
+    text-align: right; }
+
+.site-nav {
+  z-index: 999; }
+  .site-nav .navbar-brand {
+    padding-left: 0px; }
+  .site-nav .navbar-collapse .navbar-nav li {
+    margin-top: 5px; }
+    .site-nav .navbar-collapse .navbar-nav li a {
+      color: #272b2d;
+      text-transform: uppercase;
+      font-size: 14px; }
+      .site-nav .navbar-collapse .navbar-nav li a:hover, .site-nav .navbar-collapse .navbar-nav li a:focus {
+        background: none;
+        color: #0987C5; }
+
+.home-wrapper {
+  background: url(../images/waves.gif) no-repeat bottom #e2e2e2;
+  height: calc(100%);
+  display: flex;
+  align-items: center; }
+  .home-wrapper .caption-content2 {
+    margin: 0px auto;
+    text-align: center;
+    width: calc(100% - 100px); }
+    .home-wrapper .caption-content2 h1 {
+      font-size: 60px;
+      font-weight: bold;
+      color: #fff; }
+    .home-wrapper .caption-content2 .supline {
+      color: #272b2d;
+      font-size: 32px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 200; }
+    .home-wrapper .caption-content2 .tagline {
+      color: #272b2d;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 200; }
+    .home-wrapper .caption-content2 .name {
+      font-family: 'Oswald', sans-serif;
+      color: #272a2d;
+      font-size: 76px;
+      text-transform: uppercase;
+      font-weight: 400;
+      margin-bottom: 30px;
+      position: relative; }
+      .home-wrapper .caption-content2 .name:after {
+        height: 5px;
+        width: 100px;
+        background: #0561a2;
+        margin: 0px auto;
+        content: '';
+        position: absolute;
+        bottom: -20px;
+        left: 0px;
+        right: 0px; }
+
+/******************************************************************************************
+					MEDIA QUERY LAYOUT STRUCTURE
+				
+@media (max-width: 767px) {XS DEVICE- EXTRA small:  for Mobile and Tablet}				
+@media (min-width: 768px) and (max-width: 991px) {SMALL DEVICE- iPad Protlat and old Desktop view}
+@media (min-width: 992px) and (max-width: 1199px) {MEDIUM DEVICE- iPad Landscap and large Desktop view}
+@media (min-width: 1200px) {LARGE DEVICE- Projector EXTRA large Desktop view}
+				
+/******************************************************************************************/
+@media (max-width: 767px) {
+  .wrapper {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+  .home-wrapper .caption-content2 {
+    width: calc(100% - 10px); }
+
+  .navbar-header .navbar-toggle {
+    border: 1px solid #ccc; }
+    .navbar-header .navbar-toggle .icon-bar {
+      background: #333; }
+
+  .navbar-collapse {
+    background: #fff; }
+
+  .home-wrapper .caption-content2 .supline {
+    font-size: 26px; }
+  .home-wrapper .caption-content2 .name {
+    font-size: 32px; }
+  .home-wrapper .caption-content2 .tagline {
+    font-size: 14px; }
+
+  footer {
+    font-size: 11px; } }
+
+/*# sourceMappingURL=style.css.map */
