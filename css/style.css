@@ -444,6 +444,10 @@ figure:hover img {
 
   footer {
     font-size: 11px;
-    padding-top: 26px; } }
+    padding-top: 26px; }
+
+  .work {
+    margin: 0px -15px;
+    padding: 30px 15px; } }
 
 /*# sourceMappingURL=style.css.map */
