@@ -4,7 +4,6 @@
   box-sizing: border-box; }
 
 html, body, .wrapper {
-  height: 100%;
   font-family: 'Open Sans', sans-serif; }
 
 /* =Margin + Padding
@@ -408,6 +407,87 @@ figure:hover img {
   transition: all .3s ease;
   -webkit-transition: all .3s ease;
   -moz-transition: all .3s ease; }
+
+/*************************************************
+				Work Detail
+*************************************************/
+.work-deatail {
+  /* Project-detail */ }
+  .work-deatail .project-detail {
+    /*Pjoject-name */
+    /*UL*/ }
+    .work-deatail .project-detail .project-name h1 {
+      color: #272a2d;
+      font-size: 42px;
+      font-family: 'Oswald', sans-serif;
+      font-weight: 400;
+      position: relative;
+      padding-top: 30px;
+      margin-top: 30px;
+      position: relative; }
+      .work-deatail .project-detail .project-name h1:before {
+        height: 2px;
+        width: 30px;
+        background: #333;
+        content: "";
+        position: absolute;
+        top: 0px; }
+    .work-deatail .project-detail .project-name h3 {
+      color: #272b2d;
+      font-size: 20px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300; }
+    .work-deatail .project-detail ul {
+      margin: 40px 0px 0px;
+      padding: 0px; }
+      .work-deatail .project-detail ul li {
+        list-style: none;
+        border-top: 2px solid #333;
+        overflow: hidden;
+        padding: 45px 0px; }
+        .work-deatail .project-detail ul li .title {
+          float: left;
+          width: 30%;
+          font-size: 20px;
+          font-weight: 600; }
+        .work-deatail .project-detail ul li .description {
+          float: left;
+          width: 70%;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 2em; }
+
+.microsite {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#0561a2+50,ffffff+50 */
+  background: #0561a2;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #0561a2 61%, #ffffff 62%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #0561a2 61%, #ffffff 62%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(175deg, #0561a2 55%, #ffffff 55%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0561a2', endColorstr='#ffffff',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  position: relative;
+  float: left;
+  width: 100%; }
+  .microsite h2 {
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400; }
+
+h2 {
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400; }
+  h2.bod-bot {
+    border-bottom: 2px solid #333;
+    padding-bottom: 25px; }
+
+.bg-gray {
+  background: #e6e6e6; }
 
 /******************************************************************************************
 					MEDIA QUERY LAYOUT STRUCTURE
