@@ -444,15 +444,14 @@ figure:hover img {
         list-style: none;
         border-top: 2px solid #333;
         overflow: hidden;
-        padding: 45px 0px; }
+        padding-top: 45px;
+        padding-bottom: 45px; }
         .work-deatail .project-detail ul li .title {
-          float: left;
-          width: 30%;
+          color: #272b2d;
           font-size: 20px;
-          font-weight: 600; }
+          font-weight: 600;
+          margin-bottom: 20px; }
         .work-deatail .project-detail ul li .description {
-          float: left;
-          width: 70%;
           font-size: 16px;
           font-weight: 300;
           line-height: 2em; }
@@ -528,6 +527,24 @@ h2 {
 
   .work {
     margin: 0px -15px;
-    padding: 30px 15px; } }
+    padding: 30px 15px; }
+
+  .work-deatail .project-detail .project-name h1 {
+    font-size: 29px; }
+
+  .work-deatail .project-detail .project-name h3 {
+    font-size: 18px; }
+
+  .microsite h2 {
+    color: #272b2d;
+    margin-top: 30px !important;
+    font-size: 29px; }
+
+  h2 {
+    font-size: 29px; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .microsite h2 {
+    font-size: 26px;
+    margin-top: 40px !important; } }
 
 /*# sourceMappingURL=style.css.map */
