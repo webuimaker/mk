@@ -75,7 +75,7 @@ html,body, .wrapper{ font-family: 'Open Sans', sans-serif;}
 body{
 	
 	}
-.wrapper{padding-left:70px; padding-right:70px; position:relative;}
+.wrapper{padding-left:70px; padding-right:70px; position:relative; max-width:1400px; margin:0px auto;}
 .home-intro{height:calc(100% - 140px); background:#e2e2e2}
 header,footer{height:70px;}
 footer{
@@ -340,12 +340,23 @@ figure:hover img { -ms-transform: scale(1.1,1.1); -webkit-transform: scale(1.1,1
 	}
 	.work-deatail .project-detail .project-name h1{font-size:29px;}
 	.work-deatail .project-detail .project-name h3{font-size:18px;}
-	.microsite h2{color: #272b2d;
+	.microsite h2{
     	margin-top: 30px !important;
 		font-size:29px;
 	}
 	h2{font-size:29px;}
+	.order-container {
+		display:flex; -ms-flex-direction: column;
+    	-webkit-flex-direction: column;
+    	flex-direction: column;
+	}
 	
+	.order-container .content{
+		order:1;
+	}
+	.order-container .image{
+		order:2;		
+	}
 	
 }				
 @media (min-width: 768px) and (max-width: 991px) {

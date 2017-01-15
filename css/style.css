@@ -197,7 +197,9 @@ html, body, .wrapper {
 .wrapper {
   padding-left: 70px;
   padding-right: 70px;
-  position: relative; }
+  position: relative;
+  max-width: 1400px;
+  margin: 0px auto; }
 
 .home-intro {
   height: calc(100% - 140px);
@@ -536,12 +538,23 @@ h2 {
     font-size: 18px; }
 
   .microsite h2 {
-    color: #272b2d;
     margin-top: 30px !important;
     font-size: 29px; }
 
   h2 {
-    font-size: 29px; } }
+    font-size: 29px; }
+
+  .order-container {
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column; }
+
+  .order-container .content {
+    order: 1; }
+
+  .order-container .image {
+    order: 2; } }
 @media (min-width: 768px) and (max-width: 991px) {
   .microsite h2 {
     font-size: 26px;
