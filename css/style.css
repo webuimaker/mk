@@ -101,6 +101,9 @@ html, body, .wrapper {
 .mt60 {
   margin-top: 60px !important; }
 
+.mt70 {
+  margin-top: 70px !important; }
+
 .mt80 {
   margin-top: 80px !important; }
 
@@ -136,6 +139,9 @@ html, body, .wrapper {
 
 .mb60 {
   margin-bottom: 60px !important; }
+
+.mb70 {
+  margin-bottom: 70px !important; }
 
 .mb80 {
   margin-bottom: 80px !important; }
@@ -473,6 +479,17 @@ figure:hover img {
   position: relative;
   float: left;
   width: 100%; }
+  .microsite.ornage {
+    background: #db7f01;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #db7f01 61%, #ffffff 62%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #db7f01 61%, #ffffff 62%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(175deg, #db7f01 55%, #ffffff 55%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db7f01', endColorstr='#ffffff',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */ }
   .microsite h2 {
     color: #fff;
     font-size: 32px;

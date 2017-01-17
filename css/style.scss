@@ -39,6 +39,7 @@ html,body, .wrapper{ font-family: 'Open Sans', sans-serif;}
 .mt40 { margin-top:40px !important; }
 .mt50 { margin-top:50px !important; }
 .mt60 { margin-top:60px !important; }
+.mt70 { margin-top:70px !important; }
 .mt80 { margin-top:80px !important; }
 .mt90 { margin-top:90px !important; }
 .mt100 { margin-top:100px !important; }
@@ -51,6 +52,7 @@ html,body, .wrapper{ font-family: 'Open Sans', sans-serif;}
 .mb40 { margin-bottom:40px !important; }
 .mb50 { margin-bottom:50px !important; }
 .mb60 { margin-bottom:60px !important; }
+.mb70 { margin-bottom:70px !important; }
 .mb80 { margin-bottom:80px !important; }
 .mb90 { margin-bottom:90px !important; }
 .mb100 { margin-bottom:100px !important; }
@@ -272,6 +274,15 @@ figure:hover img { -ms-transform: scale(1.1,1.1); -webkit-transform: scale(1.1,1
 		position:relative;
 		float:left;
 		width:100%;
+		
+		&.ornage{
+			
+			background: #db7f01; /* Old browsers */
+		background: -moz-linear-gradient(-45deg,  #db7f01 61%, #ffffff 62%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(-45deg,  #db7f01 61%,#ffffff 62%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(175deg,  #db7f01 55%,#ffffff 55%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#db7f01', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+		}
 		
 			h2{
 				color:#fff;
